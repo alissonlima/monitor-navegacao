@@ -8,3 +8,5 @@ apt-get install squid squid-cgi squid-langpack libpam-mysql mysql-client-5.1 mys
 copiar arquivo squid.conf /etc/squid/squid.conf
 
 copiar arquivo config/squid.pam para /etc/pam.d/squid e alterar as informações de conexão ao banco
+
+copiar src/squid_log_daemon/logfile-daemon_mysql.pl para /etc/squid
