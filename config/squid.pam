@@ -1,0 +1,1 @@
+auth required pam_mysql.so user=usuario passwd=senha db=squid_log host=localhost table=usuario  usercolumn=user passwdcolumn=password crypt=0

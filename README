@@ -1,0 +1,10 @@
+Para instalar
+
+apt-get install squid squid-cgi squid-langpack libpam-mysql mysql-client-5.1 mysql-server-5.1
+
+- criar banco de dados
+- criar tabelas com o script sql/squid.sql
+
+copiar arquivo squid.conf /etc/squid/squid.conf
+
+copiar arquivo config/squid.pam para /etc/pam.d/squid e alterar as informações de conexão ao banco
